@@ -3,9 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32328.378
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApricodeGames.API", "ApricodeGames.API\ApricodeGames.API.csproj", "{AE7F4E3B-09CB-4A75-800E-E48C39CD41D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Apricode.ApricodeGames.API", "Apricode.ApricodeGames.API\Apricode.ApricodeGames.API.csproj", "{746563E1-D256-48E7-87AD-57305485C5A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApricodeGames.UnitTests", "ApricodeGames.UnitTests\ApricodeGames.UnitTests.csproj", "{62CA950E-1B47-4297-BE7F-27740BD134DE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Apricode.ApricodeGames.UnitTests", "Apricode.ApricodeGames.UnitTests\Apricode.ApricodeGames.UnitTests.csproj", "{2F0AAB2A-1139-4453-9258-B1EE1FE436DA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Apricode.ApricodeGames.Core.Abstraction", "Apricode.ApricodeGames.Core.Abstraction\Apricode.ApricodeGames.Core.Abstraction.csproj", "{FD58F600-CB73-4C1A-8C72-DFD80C4A11E7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApricodeGames", "ApricodeGames", "{01DAF756-A9B6-48A3-9F51-3769F42D5C86}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AprocodeGames.UnitTests", "AprocodeGames.UnitTests", "{81E1F22B-FC86-4E84-835A-8CE854307C6E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{C657B29D-FBA5-446D-AA5B-FDFB35035930}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,17 +21,26 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{AE7F4E3B-09CB-4A75-800E-E48C39CD41D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AE7F4E3B-09CB-4A75-800E-E48C39CD41D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AE7F4E3B-09CB-4A75-800E-E48C39CD41D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AE7F4E3B-09CB-4A75-800E-E48C39CD41D9}.Release|Any CPU.Build.0 = Release|Any CPU
-		{62CA950E-1B47-4297-BE7F-27740BD134DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{62CA950E-1B47-4297-BE7F-27740BD134DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{62CA950E-1B47-4297-BE7F-27740BD134DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{62CA950E-1B47-4297-BE7F-27740BD134DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{746563E1-D256-48E7-87AD-57305485C5A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{746563E1-D256-48E7-87AD-57305485C5A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{746563E1-D256-48E7-87AD-57305485C5A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{746563E1-D256-48E7-87AD-57305485C5A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F0AAB2A-1139-4453-9258-B1EE1FE436DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F0AAB2A-1139-4453-9258-B1EE1FE436DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F0AAB2A-1139-4453-9258-B1EE1FE436DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F0AAB2A-1139-4453-9258-B1EE1FE436DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD58F600-CB73-4C1A-8C72-DFD80C4A11E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD58F600-CB73-4C1A-8C72-DFD80C4A11E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD58F600-CB73-4C1A-8C72-DFD80C4A11E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD58F600-CB73-4C1A-8C72-DFD80C4A11E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{746563E1-D256-48E7-87AD-57305485C5A8} = {01DAF756-A9B6-48A3-9F51-3769F42D5C86}
+		{2F0AAB2A-1139-4453-9258-B1EE1FE436DA} = {81E1F22B-FC86-4E84-835A-8CE854307C6E}
+		{FD58F600-CB73-4C1A-8C72-DFD80C4A11E7} = {C657B29D-FBA5-446D-AA5B-FDFB35035930}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {ADD5385D-4BC9-4D22-ABEB-89F3FF5F9AA6}
