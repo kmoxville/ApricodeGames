@@ -7,11 +7,9 @@
 Сделать минимум 3 слоя абстракций, а контроллеры "тонкими".
 
 ### Реализация
-  Data access layer - src/Data
+  Data access layer - src/Apricode.ApricodeGames.API/Data<br />
+  Business logic layer - srcsrc/Apricode.ApricodeGames.API/Business<br />
+  Presentation layer - srcsrc/Apricode.ApricodeGames.API/Controllers<br /><br />
+CRUD операции сделаны для GameItem
 
-  Business logic layer - src/Business
-
-  Presentation layer - src/Controllers
-
-
-CRUD операции сделаны для GameItem, Genre и DevelopmentStudio предопределены
+Genre и DevelopmentStudio предопределены в бд
